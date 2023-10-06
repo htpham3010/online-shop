@@ -1,6 +1,6 @@
 # Online Shop (E-commerce) Project
 
-![Project Logo]() <!-- If you have a project logo, include it here -->
+![Project Logo] <!-- If you have a project logo, include it here -->
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ Follow these steps to set up and run the project locally:
 On MacOS and Linux:
   ```bash
   source venv/bin/activate
-  ``` 
+  ```
 7. Install Dependencies:
    ```bash
    pip install -r requirements.txt
@@ -56,7 +56,7 @@ On MacOS and Linux:
 11. Create a Superuser (Admin):
   ```bash
   python manage.py createsuperuser
-  ```  
+  ```
 13. Start the Development Server:
   ```
   python manage.py runserver

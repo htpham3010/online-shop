@@ -164,11 +164,11 @@ REDIS_DB = 1
 # django-parler settings
 PARLER_LANGUAGES = {
     None: (
-        {'code': 'en'},
-        {'code': 'es'},
+        {"code": "en"},
+        {"code": "es"},
     ),
-    'default': {
-        'fallback': 'en',
-        'hide_untranslated': False,
-    }
+    "default": {
+        "fallback": "en",
+        # "hide_untranslated": False,
+    },
 }

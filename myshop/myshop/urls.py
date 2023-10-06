@@ -32,8 +32,9 @@ urlpatterns = i18n_patterns(
 )
 
 urlpatterns += [
-    path('payment/webhook/', webhooks.stripe_webhook, name='stripe-webhook'),
+    path("payment/webhook/", webhooks.stripe_webhook, name="stripe-webhook"),
 ]
+
 if settings.DEBUG:
     urlpatterns += static(
         settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
